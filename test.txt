@@ -1,0 +1,47 @@
+------ ЗАДАНИЕ 1 ------ g++ n1.cpp structure/Stack.cpp -o n1
+8 2 5 * + 1 3 2 * + 4 - /
+((8 + (2 * 5)) / ((1 + (3 * 2)) - 4)) = 6
+
+2 2 +
+2 + 2 = 4
+
+3 1 4 * +
+3 + (1 * 4) = 7
+
+------ ЗАДАНИЕ 2 ------ g++ n2.cpp .\structure\Set.cpp -o n2
+./n2 --file n2.txt --query
+
+------ ЗАДАНИЕ 3 ------ g++ n3 g++ n3.cpp .\structure\Set.cpp -o n3
+ABBACAB
+BCABB
+4
+
+------ ЗАДАНИЕ 4 ------ g++ n4.cpp structure/Array.cpp -o n4
+Ввод: 4 
+cAnnot 
+cannOt 
+fOund 
+pAge 
+thE pAge cAnnot be found 
+Вывод: 2 
+
+Ввод: 4 
+cAnnot 
+cannOt 
+fOund 
+pAge 
+The PAGE cannot be found 
+Вывод: 4 
+
+------ ЗАДАНИЕ 5 ------ g++ n5.cpp structure/BST.cpp -o n5
+
+
+------ ЗАДАНИЕ 6 ------ g++ n6.cpp structure/HashTable.cpp structure/Array.cpp -o n6
+345
+CCCXLV
+
+1987
+MCMLXXXVII
+
+3749
+MMMDCCXLIX
