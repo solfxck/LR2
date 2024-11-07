@@ -1,3 +1,4 @@
+// Контрольная по ударениям
 #include <iostream>
 #include <string>
 #include <sstream>

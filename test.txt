@@ -11,7 +11,7 @@
 ------ ЗАДАНИЕ 2 ------ g++ n2.cpp .\structure\Set.cpp -o n2
 ./n2 --file n2.txt --query
 
------- ЗАДАНИЕ 3 ------ g++ n3 g++ n3.cpp .\structure\Set.cpp -o n3
+------ ЗАДАНИЕ 3 ------ g++ n3.cpp .\structure\Set.cpp -o n3
 ABBACAB
 BCABB
 4
@@ -34,7 +34,11 @@ The PAGE cannot be found
 Вывод: 4 
 
 ------ ЗАДАНИЕ 5 ------ g++ n5.cpp structure/BST.cpp -o n5
+7 3 2 1 9 5 4 6 8 0 
+YES
 
+7 3 2 1
+NO
 
 ------ ЗАДАНИЕ 6 ------ g++ n6.cpp structure/HashTable.cpp structure/Array.cpp -o n6
 345
