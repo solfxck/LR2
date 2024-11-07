@@ -39,6 +39,9 @@ int evaluatePE(string entryPolish) {
             } else if (token == "*") {
                 result = operand1 * operand2;
             } else if (token == "/") {
+                if (operand2 == 0) {
+                    throw runtime_error("Деление на 0");
+                }
                 result = operand1 / operand2;
             } else {
                 throw runtime_error("Неизвестный оператор: " + token);

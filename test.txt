@@ -37,7 +37,7 @@ The PAGE cannot be found
 7 3 2 1 9 5 4 6 8 0 
 YES
 
-7 3 2 1
+7 3 2 1 0
 NO
 
 ------ ЗАДАНИЕ 6 ------ g++ n6.cpp structure/HashTable.cpp structure/Array.cpp -o n6
