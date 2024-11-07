@@ -1,4 +1,3 @@
-// Инопланетный геном
 #include <iostream>
 #include <string>
 #include "structure/header.h"
@@ -23,14 +22,18 @@ int main() {
         pairsSet.insert(pair);
     }
 
+    // создаем множество для отслеживания уже учтенных пар оснований из первого генома
+    Set countedPairs(100);
+
     // считаем степень близости
     int closenessDegree = 0;
     for (size_t i = 0; i < genome1.length() - 1; ++i) {
         string pair;
         pair += genome1[i];
         pair += genome1[i + 1];
-        if (pairsSet.contains(pair)) {
+        if (pairsSet.contains(pair) && !countedPairs.contains(pair)) {
             closenessDegree++;
+            countedPairs.insert(pair);
         }
     }
 
